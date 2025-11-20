@@ -15,17 +15,310 @@
    "wallpaper":"./img/nanfeng-bg.jpg",
    "homelogo":"./img/logo-2.jpg",
     //"spider":"./jar/spider.jar",
-    "spider":"./jar/spider-2025-08-11.jar",
+    "spider":"./jar/spider-2025-11-04.jar",
 
-   "warningText":"【温馨提示】📢接口软件永远免费 📢请勿相信视频内广告 📢长期维护切勿贩卖",
+   "warningText":"【温馨提示】📢接口软件永远免费 📢请勿相信视频内广告 📢请勿用于非法用途",
 
 
 
    "sites":[
 
+
+//********************************************************************************
 //********************************** 以下测试 ***********************************
+//********************************************************************************
 
 
+
+
+     {
+      "key": "drpyS_emby[盘]",
+      "name": "🔵emby｜云盘",
+      "type": 4,
+      "api": "https://zhxy.eu.org/api/emby[盘]",
+      "searchable": 1,
+      "filterable": 1,
+      "quickSearch": 1,
+      "title": "emby[盘]",
+      "lang": "ds",
+      "ext": ""
+    },
+
+
+      {
+         "key":"巧技",
+         "name":"巧技｜4K",
+         "type":3,
+         "api":"csp_qiao2",
+         "ext":"7lj763gg402i79425739i7jghj118797l4hj840gi18633331l4708g2h7145403549g44l8ii56i187681hkjj3hhgh1ih3l32j250lk1k786lj20j468hk3hli4l46gig4i3g7g2722328j0136h01i7g5183k22k7gg3i72hk81gl8k9839kl7i0707",
+         "jar":"./jar/qj071.jar;md5;9cf0a6c1f62ad83e9dccc2b7dd683a10"
+      },
+
+      {
+         "key":"爆炸",
+         "name":"爆炸｜4K",
+         "type":3,
+         "api":"csp_Muou",
+         "ext":"7lj763gg402i79425i3l85i6h848i295l5hiji5l828g3l3jjhg6kg7410lhjkqiaojij3ig1lg475178k7h0il4ig3h753h7hi516758699jh2g5h433li30gk11g73l90312h4g7",
+         "jar":"./jar/qj071.jar;md5;9cf0a6c1f62ad83e9dccc2b7dd683a10"
+      },
+
+
+
+
+
+//********************************************************************************
+//********************************** 以上测试 ***********************************
+//********************************************************************************
+
+
+
+
+//   速度可   来自群摘
+        {
+            "name": "嗷嗚彈幕",
+            "key": "嗷嗚彈幕",
+            "type": 3,
+            "api": "csp_GoConfigAmns",
+            "indexs": 1,
+            "jar": "https://0890.dpdns.org/wnqiwnquidwiunddneudne/custom_spider.jar",
+            "searchable": 0,
+            "filterable": 0,
+            "quickSearch": 0,
+            "changeable": 0
+        },
+
+//   速度可   来自潇洒
+        {
+            "key": "豆瓣",
+            "name": "🚀豆瓣｜首页",
+            "type": 3,
+            "api": "csp_Douban",
+            "searchable": 0
+        },
+
+//   速度可   来自潇洒
+        {
+            "key": "配置中心",
+            "name": "配置｜中心",
+            "type": 3,
+            "api": "csp_Config",
+            "searchable": 0,
+            "changeable": 0,
+            "indexs": 0,
+            "style": {
+                "type": "rect",
+                "ratio": 1.597
+            }
+        },
+
+//   速度可   来自潇洒
+        {
+            "key": "本地",
+            "name": "本地｜视频",
+            "type": 3,
+            "api": "csp_LocalFile"
+        },
+
+
+
+//1920X800   速度可  无广  有搜 来自摸鱼
+        {
+            "key": "比特",
+            "name": "🍄比特｜秒播",
+            "type": 3,
+            "api": "csp_BttwooGuard",
+            "jar": "./jar/moyu-25-11-06.php;md5;45e0cddf276d06a8d22bff07b00a9b76",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1
+        },
+
+
+
+//1920X800   速度可  无广  有搜 来自摸鱼
+        {
+            "key": "紫金",
+            "name": "💢紫金｜弹幕",
+            "type": 3,
+            "quickSearch": 1,
+            "api": "csp_AppGet",
+            "jar": "./jar/moyuer-25-11-06.php;md5;36456a794b9f6d670931667d79bf8e9c",
+            "ext": {
+                "url": "http://www.zjcvod.com",
+                "site": "",
+                "dataKey": "ab4e9a421675f14b",
+                "dataIv": "ab4e9a421675f14b",
+                "deviceId": "",
+                "version": "",
+                "ua": ""
+            }
+        },
+
+
+//1280X536   速度可  无广  有搜 来自摸鱼
+        {
+            "key": "星星",
+            "name": "星星｜弹幕",
+            "type": 3,
+            "quickSearch": 1,
+            "api": "csp_AppGet",
+            "jar": "./jar/moyuer-25-11-06.php;md5;36456a794b9f6d670931667d79bf8e9c",
+            "ext": {
+                "url": "http://starani.qcanime.xyz",
+                "site": "",
+                "dataKey": "123456789StarAni",
+                "dataIv": "123456789StarAni",
+                "deviceId": "",
+                "version": "",
+                "ua": "okhttp/3.10.0 BDYS/109.0.0.8"
+            }
+        },
+
+
+
+
+
+
+//1920X800   速度可  有广  有搜 来自OK
+      {
+         "key":"一起",
+         "name":"一起｜秒播",
+         "type":3,
+         "api":"csp_YqsGuard",
+         "searchable":1,
+         "quickSearch":1,
+         "changeable":1,
+         "filterable":1,
+         "jar": "./jar/kk-25-11-06.png;md5;b3fe8c2580f248c0931d0aff419d10f0",
+         "timeout":10
+      },
+
+
+
+
+
+
+
+
+
+//1920X800   速度可  无广  有搜 来自潇洒
+        {
+            "key": "冷心",
+            "name": "冷心｜APP",
+            "type": 3,
+            "api": "csp_AppMuou",
+            "ext": {
+                "url": "http://app.789dd.cn",
+                "name": "火猫影视"
+            }
+        },
+
+
+
+
+//1920X800   速度可  无广  有搜 来自潇洒
+        {
+            "key": "星空",
+            "name": "🌟星空｜APP",
+            "type": 3,
+            "quickSearch": 1,
+            "api": "csp_AppGet",
+            "ext": {
+                "url": "http://xkcms.xkgzs.xyz",
+                "dataKey": "AJcdjkAjkdJDkvcd",
+                "dataIv": "AJcdjkAjkdJDkvcd"
+            }
+        },
+
+
+//1920X800   速度可  无广  有搜 来自潇洒
+        {
+            "key": "数字",
+            "name": "数字｜APP",
+            "type": 3,
+            "quickSearch": 1,
+            "api": "csp_AppGet",
+            "ext": {
+                "url": "http://app1-0-0.87333.cc",
+                "dataKey": "VwsHxkCViDXEExWa",
+                "dataIv": "VwsHxkCViDXEExWa"
+            }
+        },
+
+
+//1920X800   速度可  无广  有搜 来自潇洒
+        {
+            "key": "紫金",
+            "name": "紫金丨APP",
+            "type": 3,
+            "quickSearch": 1,
+            "api": "csp_AppGet",
+            "ext": {
+                "url": "http://www.zjcvod.com",
+                "dataKey": "ab4e9a421675f14b",
+                "dataIv": "ab4e9a421675f14b"
+            }
+        },
+
+
+//1920X800   速度可  无广  有搜 来自潇洒 摸鱼
+        {
+            "key": "五八",
+            "name": "五八丨APP",
+            "type": 3,
+            "quickSearch": 1,
+            "api": "csp_AppGet",
+            "ext": {
+                "url": "https://dy.58ys.vip",
+                "site": "",
+                "dataKey": "JEWibY1AgWF0V1xx",
+                "dataIv": "JEWibY1AgWF0V1xx",
+                "deviceId": "",
+                "version": "",
+                "ua": ""
+            }
+        },
+
+
+
+
+//1920X800   速度可  无广  有搜 来自嗷呜
+      {
+         "key":"沐辰电影",
+         "name":"沐辰｜电影",
+         "type":4,
+         "api":"https://py.doube.eu.org/spider?site=DianYingTanTang"
+      },
+
+
+
+
+
+//1080x452   速度可  无广  有搜 来自小米
+      {
+         "key":"热热",
+         "name":"热热｜影视",
+         "type":3,
+         "searchable":1,
+         "quickSearch":0,
+         "api":"csp_AppRJ",
+         "jar": "./jar/xiaomi250910.png",
+         "ext":"Z2MNziRBwjQxqaBuUxNkDRyvTntIkN1cOXhjyWgjCTc="
+      },
+
+
+//1080x452   速度可  无广  有搜 来自小米
+      {
+         "key":"麻花",
+         "name":"🌸麻花｜影视",
+         "type":3,
+         "quickSearch":0,
+         "searchable":1,
+         "api":"csp_AppGet", 
+        "jar": "./jar/xiaomi250910.png",
+         "ext":"L5CUOokkdA53FISUojI6hPrPTI97cTkdA/ji0bBBqAxKRl2ZBcdyMIPZYXkkVxwyvG4rB4PEPXKIt7+cirUe3BI+KdfWiEtEO4bT/XoF0PYU0GWsBFU3ARUcHsGqNpNy"
+      },
 
 
 
@@ -34,15 +327,18 @@
 	
     {
          "key":"荐片",
-         "name":"➖荐片┃磁力",
+         "name":"🧲荐片┃磁力",
+         "type":3,
          "quickSearch":0,
          "searchable":1,
-         "type":3,
+         "changeable":1,
+         "filterable":1,
          "api":"csp_Jianpian",
          "style":{
             "type":"rect",
             "ratio":1.333
          },
+         //"ext":"./lib/jianpian.json"
          "ext":"https://ev2089.zxbwv.com"
       },
 
@@ -82,6 +378,7 @@
 //1920X960   速度可  有广  有搜 来自小哥哥 肥猫
         {
             "key": "苹果影视",
+            //"key":"csp_LiteApple",
             "name": "🍎苹果｜影视",
             "type": 3,
             "api": "csp_LiteApple",
@@ -98,26 +395,14 @@
             "name": "🥇️金牌｜影视",
             "type": 3,
             "api": "csp_Jpys",
+            "searchable":1,
+            "quickSearch":1,
+            "filterable":1,
+            //"ext":"7lj763gg402i7942463j9j9jh8579590k3hjii5gi4i73l2k5l"
             "jar": "./jar/PandaQ250828.jpg;md5;faff0adc799face065ec66a0ee01761e"
         },
 
-//1920X960   速度可  有广  有搜 来自小哥哥
-        {
-            "key": "麦田影视",
-            "name": "麦田｜影视",
-            "type": 3,
-            "api": "csp_HBPQ",
-            "ext": "./lib/麦田影视.json"
-        },
 
-//1920X1080   速度可  有广  有搜 来自小哥哥
-        {
-            "key": "明星影视",
-            "name": "明星｜影视",
-            "type": 3,
-            "api": "csp_HBPQ",
-            "ext": "./lib/明星影视.json"
-         },
 
 //速度可，无广  可搜   1920x1080 来自南风  南风可 潇洒可 摸鱼可
       {
@@ -150,9 +435,21 @@
 
 
 //速度可，无广  可搜   1920x1080  来自小哥哥软件    南风可 小哥可 潇洒可
+       {    
+           "key": "永乐",
+            "name": "💎永乐1｜影视",
+            "type": 3,
+            "jar": "./jar/XBPQ-25-09-10.jar",
+            "api": "csp_XBPQ",
+            "ext": {
+             "分类url": "https://www.iyf.lv/;;!"
+            }
+        },
+
+//速度可，无广  可搜   1920x1080  来自小哥哥软件    南风可 小哥可 潇洒可
       {
          "key":"永乐影视",
-         "name":"💎永乐｜影视",
+         "name":"💎永乐2｜影视",
          "type":3,
          "api":"csp_XBPQ",
          "searchable":1,
@@ -160,6 +457,26 @@
          "filterable":1,
          "ext":"./lib/永乐影视.json"
       },
+
+
+//速度可，无广  可搜   1920x1080
+      {
+         "key":"永乐",
+         "name":"💎永乐3｜影视",
+         "type":3,
+         "api":"csp_XBPQ",
+         "searchable":1,
+         "quickSearch":1,
+         "filterable":1,
+         "ext":{
+            "请求头":"User-Agent$MOBILE_UA",
+            "编码":"UTF-8",
+            "分类":"电影$1#电视剧$2#综艺$3#动漫$4",
+            "类型":"动作片$6#喜剧片$7#爱情片$8#科幻片$9#奇幻片$10#恐怖片$11#剧情片$12#战争片$20#动画片$26#悬疑片$22#冒险片$23#犯罪片$24#惊悚片$45#歌舞片$46#灾难片$47#网络片$48||国产剧$13#港台剧$14#日剧$15#韩剧$33#欧美剧$16#泰剧$34#新马剧$35#其他剧$25||内地综艺$27#港台综艺$28#日本综艺$29#韩国综艺$36#欧美综艺$30#新马泰综艺$37#其他综艺$38||国产动漫$31#日本动漫$32#韩国动漫$39#港台动漫$40#新马泰动漫$41#欧美动漫$42#其他动漫$43",
+            "分类url":"https://www.ylys.tv/vodshow/{cateId}-{area}-{by}-{class}-{lang}-{letter}---{catePg}---{year}.html"
+         }
+      },
+
 
 //1920X1080   速度可  有广  有搜 来自肥猫 南风
         {
@@ -171,6 +488,7 @@
             "quickSearch":1,
             "filterable":1,
             "ext": "https://www.wwgz.cn",
+            //"ext":"https://vip.wwgz.cn:5200/"
             "jar": "./jar/PandaQ250828.jpg;md5;faff0adc799face065ec66a0ee01761e"
         },
 
@@ -188,7 +506,8 @@
 
 
 //1920X1080 速度可   有广  有搜  来自小米
-      {
+
+       {
          "key":"天天",
          "name":"天天｜影视",
          "type":3,
@@ -196,8 +515,9 @@
          "searchable":1,
          "api":"csp_AppRJ",
          "jar": "./jar/xiaomi250910.png",
-         "ext":"vxw35/hHSj07Q+maxQzOVMq1rjRCOTXpUCx8iKu5jIg="
-      },
+         "ext": "vxw35/hHSj07Q+maxQzOVMq1rjRCOTXpUCx8iKu5jIg="
+       },
+
 
 
 //1920X1080 速度可   无广  有搜  来自小米
@@ -255,7 +575,7 @@
 //速度可，无广  可搜   1920x1080  来自小哥哥软件 小哥可 潇洒可
       {
          "key":"浪酷影视",
-         "name":"✈️浪酷｜APP",
+         "name":"⭐️浪酷｜APP",
          "type":3,
          "api":"csp_AppRJ",
          "searchable":1,
@@ -265,26 +585,6 @@
             "url":"http://v.lkuys.cn"
          }
       },
-
-
-//3840X2160  速度慢 无广 有搜 来自潇洒
-        {
-            "key": "豆丁",
-            "name": "豆丁丨APP",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppGet",
-            "ext": {
-                "url": "",
-                //"site": "http://45.66.157.77:9427/dd.txt",
-                "site": "./lib/豆丁.txt",
-                "dataKey": "Xasdasd!123123dd",
-                "dataIv": "Xasdasd!123123dd",
-                "deviceId": "",
-                "version": "",
-                "ua": ""
-            }
-        },
 
 
 
@@ -312,41 +612,10 @@
 
 
 
-//1980X1080  速度可 无广 有搜 来自潇洒 肥猫
-        {
-            "key": "蔬菜",
-            "name": "蔬菜丨APP",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppGet",
-            "ext": {
-                "url": "http://huohu.yihn.cc",
-                "site": "",
-                "dataKey": "huohushipingetap",
-                "dataIv": "huohushipingetap",
-                "deviceId": "",
-                "version": "140",
-                "ua": ""
-            }
-        },
 
 
-//1980X1080  速度可 无广 有搜 来自潇洒或摸鱼
-        {
-            "key": "光影",
-            "name": "光影｜APP",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppGet",
-            //"jar":"./lib/moyuer.php;md5;7fe266c718fd050aab2f4cfb0b451764",
-            "ext": {
-                "url": "https://www.guangyingmi.com",
-                "dataKey": "230fnsodfsdhfon2",
-                "dataIv": "230fnsodfsdhfon2",
-                "deviceId": "",
-                "version": ""
-            }
-        },
+
+
 
 
 
@@ -378,20 +647,9 @@
             "jar": "./jar/PandaQ250828.jpg;md5;faff0adc799face065ec66a0ee01761e"
         },
 
-//1920X804   速度可  无广  有搜 来自肥猫
-        {
-            "key": "永永",
-            "name": "永永｜APP",
-            "type": 3,
-            "api": "csp_AppGet",
-            "ext": {
-                "url": "https://www.guangyingmi.com",
-                "dataKey": "230fnsodfsdhfon2",
-                "siteApi": "get",
-                "version": ""
-            },
-            "jar": "./jar/PandaQ250828.jpg;md5;faff0adc799face065ec66a0ee01761e"
-        },
+
+
+
 
 
 //1920X1080   速度慢  无广  有搜 来自肥猫  同蔬菜
@@ -425,6 +683,7 @@
       "playerType":2,
       "searchable":1,
       "quickSearch":1,
+      "filterable":1,
       "changeable":1,
       //"jar": "./jar/f0811.jpg;md5;c62c307314178af8637480fcb2fe61f7"
       "jar": "./jar/fty250911.jpg;md5;2452e3a72453e1e2305e9b66eae38fe5"
@@ -442,6 +701,7 @@
             "searchable": 1,
             "quickSearch":1,
             "changeable": 1,
+            "filterable":1,
             "jar": "./jar/fty250911.jpg;md5;2452e3a72453e1e2305e9b66eae38fe5"
         },
 
@@ -1151,87 +1411,6 @@
 
 
 
-//速度可，有广  有搜  1920x1080  来自自制 速度可
-      {
-         "key":"sbzy",
-         "name":"速播｜采集",
-         "type":1,
-         //"api":"https://subocj.com/api.php/provide/vod/at/json",
-         "api":"https://subocaiji.com/api.php/provide/vod/",
-         "searchable":1,
-         "quickSearch":1,
-         "filterable":1,
-         "categories":[
-            "动作片",
-            "喜剧片",
-            "科幻片",
-            "恐怖片",
-            "爱情片",
-            "剧情片",
-            "战争片",
-            "动漫电影",
-
-            "大陆剧",
-            "港澳剧",
-            "台湾剧",
-            "韩剧",
-            "美剧",
-            "日剧",
-            "泰剧",
-
-            "中国动漫",
-            "日本动漫",
-            "欧美动漫",
-            "纪录片"
-
-         ]
-      },
-
-
-//速度可，有广   有搜 1920x1080  来自自制 速度可
-      {
-         "key":"mzzy",
-         "name":"魔爪｜采集",
-         "type":1,
-         //"api":"https://mozhuazy.com/api.php/provide/vod/?ac=list",
-         "api":"https://mozhuazy.com/api.php/provide/vod",
-         "searchable":1,
-         "quickSearch":1,
-         "filterable":1,
-         "categories":[
-            "动作片",
-            "喜剧片",
-            "爱情片",
-            "科幻片",
-            "恐怖片",
-            "剧情片",
-            "战争片",
-            "记录片",
-            "悬疑片",
-            "动画片",
-            "犯罪片",
-            "奇幻片",
-            "冒险片",
-            "惊悚片",
-
-            "国产剧",
-            "香港剧",
-            "台湾剧",
-            "美国剧",
-            "韩国剧",
-            "日本剧",
-            "泰国剧",
-            "海外剧",
-
-            "国产动漫",
-            "日韩动漫",
-            "欧美动漫"
-
-         ]
-      },
-
-
-
 
 
 //哔哩来自小哥哥资源盘
@@ -1253,6 +1432,8 @@
                 "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt"
             }
         },
+
+
         {
             "key": "哔哩哔哩演唱会",
             "name": "哔哩｜音乐",
@@ -1311,6 +1492,8 @@
                 "ratio": 1.597
             }
         },
+
+
         {
             "key": "哔哩哔哩小品",
             "name": "哔哩｜小品",
@@ -1328,6 +1511,8 @@
                 "ratio": 1.597
             }
         },
+
+
         {
             "key": "哔哩哔哩戏曲",
             "name": "哔哩｜戏曲",
@@ -1345,6 +1530,8 @@
                 "ratio": 1.597
             }
         },
+
+
         {
             "key": "少儿教育",
             "name": "少儿｜教育",
@@ -1362,6 +1549,8 @@
                 "ratio": 1.597
             }
         },
+
+
         {
             "key": "小学课堂",
             "name": "小学｜课堂",
@@ -1379,6 +1568,8 @@
                 "ratio": 1.597
             }
         },
+
+
         {
             "key": "初中课堂",
             "name": "初中｜课堂",
@@ -1396,6 +1587,8 @@
                 "ratio": 1.597
             }
         },
+
+
         {
             "key": "高中教育",
             "name": "高中｜课堂",
@@ -1413,6 +1606,8 @@
                 "ratio": 1.597
             }
         },
+
+
         {
             "key": "急救教学",
             "name": "急救｜教学",
@@ -1427,30 +1622,12 @@
             },
             "gridview": "0-0-4.1"
         },
-        {
-            "key": "养生堂",
-            "name": "养生｜知识",
-            "type": 3,
-            "api": "csp_HBPQ",
-            "ext": "./lib/养生堂.json",
-            "style": {
-                "type": "rect",
-                "ratio": 1.597
-            }
-        },
-
-
-
-
-
-
-
 
 
 //1920X800 速度可 有广 有搜 来自hipy群 潇洒可_2025.09.22
         {
             "key": "飞快TV",
-          "name": "飞快｜TV",
+          "name": "✈️飞快｜TV",
           "type": 3,
           "api": "csp_XBPQ",
           "searchable": 1,
@@ -1485,7 +1662,7 @@
 //1920X1080 速度可 无广 有搜 来自刘伟 潇洒可无数据
       {
          "key":"哈哈影视",
-         "name":"哈哈｜XBPQ",
+         "name":"😺哈哈｜XBPQ",
          "type":3,
          "api":"csp_XBPQ",
          "searchable":1,
@@ -1576,7 +1753,7 @@
 //1920X1080 速度可 无广 有搜 来自刘伟 潇洒可无数据
       {
          "key":"XBPQ_4k影视",
-         "name":"4K｜XBPQ",
+         "name":"🔥4K｜XBPQ",
          "type":3,
          "api":"csp_XBPQ",
          "searchable":1,
@@ -1621,18 +1798,7 @@
 
 
 //短剧来自醉卧东风短剧接口
-      {
-         "key":"cj_旺旺1",
-         "name":"旺旺｜采集",
-         "type":1,
-         "api":"https://ww.tyyszy5.com/api.php/provide/vod/?ac=lis",
-         "playerType":1,
-         "searchable":1,
-         "changeable":1,
-         "categories":[
-            "短剧"
-         ]
-      },
+
       {
          "key":"drpy_短剧",
          "name":"热门｜短剧",
@@ -1644,6 +1810,8 @@
          "filterable":0,
          "ext":"./lib/duanju.json"
       },
+
+
       {
          "key":"xbpq_lddj",
          "name":"兰岛｜短剧",
@@ -1658,6 +1826,8 @@
             "分类url":"https://www.landaolx.com/vodshow/{cateId}--------{catePg}---{year}/"
          }
       },
+
+
       {
          "key":"xbpq_jzdj",
          "name":"九洲｜短剧",
@@ -1686,7 +1856,10 @@
             "短剧"
          ]
       }
+
+
    ],
+
 
 
 
@@ -1695,61 +1868,88 @@
    "lives":[
 
       {
+         "name":"pdd520",
+         "type":0,
+         "url":"https://raw.githubusercontent.com/pdd520/IPTV/refs/heads/master/output/result.txt",
+         "ua":"okhttp/3.15",
+         "epg":"http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
+         "logo":"https://epg.112114.xyz/logo/{name}.png"
+      },
+
+      {
+         "name":"Guovn",
+         "type":0,
+         "url":"https://cdn.jsdelivr.net/gh/Guovin/iptv-api@gd/output/result.txt",
+         "ua":"okhttp/3.15",
+         "epg":"http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
+         "logo":"https://epg.112114.xyz/logo/{name}.png"
+      },
+
+      {
          "name":"奥台",
          "type":0,
          "url":"https://15280.kstore.space/奥台.txt",
-         "playerType":2,
-         "logo":"https://11.112114.xyz/logo/{name}.png"
-      },
-
-      {
-         "name":"我的电视",
-         "type":0,
-         //"url":"http://192.168.10.4:8000/tv/tvlive.txt",
-         "url":"http://alon.eu.org:8000/tv/tvlive.txt",
-         "playerType":2,
-         "epg":"http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
-         "logo":"https://11.112114.xyz/logo/{name}.png"
-      },
-
-      {
-         "name":"平台直播",
-         "type":0,
-         "url":"http://be.is-best.net/i/8/5658834.txt",
          "ua":"okhttp/3.15",
-         "playerType":2
+         "epg":"http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
+         "logo":"https://epg.112114.xyz/logo/{name}.png"
       },
 
       {
-         "name":"kimwang1978",
+         "name":"我的在线电视",
          "type":0,
-         "url":"https://github.com/kimwang1978/collect-tv-txt",
-         "playerType":2,
+         "url":"http://alon.eu.org:8000/tv/tvlive.txt",
+         "ua":"okhttp/3.15",
          "epg":"http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
-         "logo":"https://11.112114.xyz/logo/{name}.png",
-         "ua":"okHttp/Mod-1.3.0.0"
+         "logo":"https://epg.112114.xyz/logo/{name}.png"
       },
 
+      {
+         "name":"我的本地电视",
+         "type":0,
+         "url":"http://192.168.10.4:8000/tv/tvlive.txt",
+         "ua":"okhttp/3.15",
+         "epg":"http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
+         "logo":"https://epg.112114.xyz/logo/{name}.png"
+      },
+
+
+      {
+         "name":"范明明",
+         "type":0,
+         "url":"https://fy.188766.xyz/?ip=&mishitong=true&json=true",
+         "ua":"okhttp/3.15",
+         "epg":"http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
+         "logo":"https://epg.112114.xyz/logo/{name}.png"
+      },
+
+
+      {
+         "name":"suxuang",
+         "type":0,
+         "url":"https://gh-proxy.org/raw.githubusercontent.com/suxuang/myIPTV/main/ipv4.m3u",
+         "playerType":1,
+         "ua":"okhttp/3.15",
+         "epg":"http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
+         "logo":"https://epg.112114.xyz/logo/{name}.png"
+      },
+
+
+      {
+         "name":"RaycornM",
+         "type":0,
+         "url":"https://raw.githubusercontent.com/RaycornM/TVbox-IPTV/main/Tivi.txt",
+         "ua":"okhttp/3.15",
+         "epg":"http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
+         "logo":"https://epg.112114.xyz/logo/{name}.png"
+      },
 
       {
          "name":"道长直播",
          "type":0,
          "url":"http://line.153588.xyz/?do=zb&pwd=123",
-         "playerType":2,
+         "ua":"okhttp/3.15",
          "epg":"http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
-         "logo":"https://11.112114.xyz/logo/{name}.png",
-         "ua":"okHttp/Mod-1.3.0.0"
-      },
-
-
-      {
-         "name":"测试电视",
-         "type":0,
-         "url":"http://www.kamcheongcn.com/tv/live.txt",
-         "playerType":2,
-         "epg":"http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
-         "logo":"https://11.112114.xyz/logo/{name}.png",
-         "ua":"okHttp/Mod-1.3.0.0"
+         "logo":"https://epg.112114.xyz/logo/{name}.png"
       }
 
    ],
@@ -1758,7 +1958,18 @@
 
 
 
+
    "parses":[
+      {
+         "name":"Web聚合",
+         "type":3,
+         "url":"Web"
+      },
+      {
+         "name":"Json聚合",
+         "type":3,
+         "url":"Demo"
+      },
       {
          "name":"虾米",
          "url":"https://jx.xmflv.com/?url=",
@@ -1791,33 +2002,496 @@
             "User-Agent":"Mozilla/5.0"
          }
       },
+
       {
-         "name":"解析1",
+         "name":"巧技19",
+         "type":1,
+         "url":"https://zy.qiaoji8.com/xiafan.php?url=",
+         "ext":{
+            "flag":[
+               "QD4K",
+               "iyf",
+               "duanju",
+               "gzcj",
+               "GTV",
+               "GZYS",
+               "weggz",
+               "Ace"
+            ],
+            "header":{
+               "User-Agent":"okhttp/4.9.1"
+            }
+         }
+      },
+
+      {
+         "name":"789",
+         "url":"https://jiexi.789jiexi.net:4433/?url=",
          "type":0,
-         "url":"https://xxx.xxx?jx="
+         "ext":{
+            "flag":[
+               "qiyi",
+               "imgo",
+               "爱奇艺",
+               "奇艺",
+               "qq",
+               "qq 预告及花絮",
+               "腾讯",
+               "youku",
+               "优酷",
+               "pptv",
+               "PPTV",
+               "letv",
+               "乐视",
+               "leshi",
+               "mgtv",
+               "芒果",
+               "sohu",
+               "xigua",
+               "fun",
+               "风行"
+            ]
+         },
+         "header":{
+            "User-Agent":"Mozilla/5.0"
+         }
+      },
+
+      {
+         "name":"HLS",
+         "type":0,
+         "url":"http://jx.4kbox.top/jx/index.php?url=",
+         "ext":{
+            "flag":[
+               "qq",
+               "腾讯",
+               "qiyi",
+               "爱奇艺",
+               "奇艺",
+               "youku",
+               "优酷",
+               "mgtv",
+               "芒果",
+               "letv",
+               "乐视",
+               "pptv",
+               "PPTV",
+               "sohu",
+               "bilibili",
+               "哔哩哔哩",
+               "哔哩"
+            ],
+            "header":{
+               "User-Agent":"okhttp/4.1.0"
+            }
+         }
+      },
+
+      {
+         "name":"咸鱼云20",
+         "type":0,
+         "url":"https://jx.xymp4.cc/?url=",
+         "ext":{
+            "flag":[
+               "qq",
+               "腾讯",
+               "qiyi",
+               "爱奇艺",
+               "奇艺",
+               "youku",
+               "优酷",
+               "mgtv",
+               "芒果",
+               "letv",
+               "乐视",
+               "pptv",
+               "PPTV",
+               "sohu",
+               "bilibili",
+               "哔哩哔哩",
+               "哔哩"
+            ]
+         },
+         "header":{
+            "user-agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.3124.68"
+         }
+      },
+
+      {
+         "name":"m3u8TV",
+         "type":0,
+         "url":"https://jx.m3u8.tv/jiexi/?url=",
+         "ext":{
+            "flag":[
+               "qq",
+               "腾讯",
+               "qiyi",
+               "爱奇艺",
+               "奇艺",
+               "youku",
+               "优酷",
+               "mgtv",
+               "芒果",
+               "letv",
+               "乐视",
+               "pptv",
+               "PPTV",
+               "sohu",
+               "bilibili",
+               "哔哩哔哩",
+               "哔哩"
+            ],
+            "header":{
+               "User-Agent":"okhttp/4.1.0"
+            }
+         }
       }
    ],
+
+
+
+
+  "rules": [
+
+    {
+      "hosts": [
+        "raw.githubusercontent.com",
+        "googlevideo.com",
+        "cdn.v82u1l.com",
+        "cdn.iz8qkg.com",
+        "cdn.kin6c1.com",
+        "c.biggggg.com",
+        "c.olddddd.com",
+        "haiwaikan.com",
+        "www.histar.tv",
+        "youtube.com",
+        "uhibo.com",
+        ".*boku.*",
+        ".*nivod.*",
+        ".*ulivetv.*",
+        "wogg.link",
+        "wogg.xyz"
+      ],
+      "name": "proxy"
+    },
+
+    {
+      "name": "量子非凡",
+      "hosts": [
+        "lz",
+        "vip.lz",
+        "v.cdnlz",
+        "hd.lz",
+        "ffzy",
+        "vip.ffzy",
+        "hd.ffzy"
+      ],
+      "regex": [
+        "#EXT-X-DISCONTINUITY\r*\n*#EXTINF:6.666667,[\\s\\S]*?#EXT-X-DISCONTINUITY",
+        "#EXT-X-DISCONTINUITY\r*\n*#EXTINF:6.600000,[\\s\\S]*?#EXT-X-DISCONTINUITY"
+      ]
+    },
+
+    {
+      "name": "索尼",
+      "hosts": [
+        "suonizy",
+        "qrssv.com"
+      ],
+      "regex": [
+        "15.1666",
+        "15.2666"
+      ]
+    },
+
+
+    {
+      "name": "乐视",
+      "hosts": [
+        "leshiyun"
+      ],
+      "regex": [
+        "15.92"
+      ]
+    },
+
+
+    {
+      "name": "优质",
+      "hosts": [
+        "yzzy",
+        "playback"
+      ],
+      "regex": [
+        "16.63",
+        "18.66",
+        "17.66",
+        "19.13"
+      ]
+    },
+    {
+      "name": "快看",
+      "hosts": [
+        "kuaikan",
+        "vip.kuaikan"
+      ],
+      "regex": [
+        "15.32",
+        "15.231",
+        "18.066"
+      ]
+    },
+
+    {
+      "name": "海外看",
+      "hosts": [
+        "haiwaikan"
+      ],
+      "regex": [
+        "10.0099",
+        "10.3333",
+        "16.0599",
+        "8.1748",
+        "12.33",
+        "10.85"
+      ]
+    },
+
+    {
+      "name": "360",
+      "hosts": [
+        "lyhuicheng"
+      ],
+      "regex": [
+        "#EXTINF.*?\\s+.*?hrz8QcR9.*?\\.ts\\s+",
+        "#EXT-X-KEY:METHOD=NONE[\\s\\S]*?#EXT-X-DISCONTINUITY"
+      ]
+    },
+    {
+      "name": "开源棋牌",
+      "hosts": [
+        "askzycdn",
+        "jkunbf",
+        "bfikuncdn",
+        "bfaskcdn"
+      ],
+      "regex": [
+        "#EXT-X-KEY:METHOD=NONE\r*\n*#EXTINF:5,[\\s\\S]*?#EXT-X-DISCONTINUITY",
+        "#EXT-X-KEY:METHOD=AES-128,URI=\"[^\"]+\"\r*\n*#EXTINF:3.333,[\\s\\S]*?#EXT-X-DISCONTINUITY"
+      ]
+    },
+    {
+      "name": "暴风",
+      "hosts": [
+        "bfengbf.com",
+        "bfzy",
+        "c1"
+      ],
+      "regex": [
+        "#EXTINF.*?\\s+.*?adjump.*?\\.ts\\s+",
+        "#EXT-X-DISCONTINUITY\r*\n*#EXTINF:3,[\\s\\S]*?#EXT-X-DISCONTINUITY"
+      ]
+    },
+
+    {
+      "hosts": [
+        "aws.ulivetv.net"
+      ],
+      "name": "星星",
+      "regex": [
+        "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:8,[\\s\\S]*?#EXT-X-DISCONTINUITY"
+      ]
+    },
+
+    {
+      "name": "农民",
+      "hosts": [
+        "toutiaovod.com"
+      ],
+      "regex": [
+        "video/tos/cn"
+      ]
+    },
+    {
+      "name": "火山嗅探",
+      "hosts": [
+        "huoshan.com"
+      ],
+      "regex": [
+        "item_id="
+      ]
+    },
+    {
+      "name": "抖音嗅探",
+      "hosts": [
+        "douyin.com"
+      ],
+      "regex": [
+        "is_play_url="
+      ]
+    },
+
+    {
+      "hosts": [
+        "api.52wyb.com"
+      ],
+      "name": "七新嗅探",
+      "regex": [
+        "m3u8?pt=m3u8"
+      ]
+    },
+    {
+      "name": "磁力广告",
+      "hosts": [
+        "magnet"
+      ],
+      "regex": [
+        "更多",
+        "请访问",
+        "example",
+        "社 區",
+        "x u u",
+        "直 播",
+        "更 新",
+        "社 区",
+        "有趣",
+        "有 趣",
+        "英皇体育",
+        "全中文AV在线",
+        "澳门皇冠赌场",
+        "哥哥快来",
+        "美女荷官",
+        "裸聊",
+        "新片首发",
+        "UUE29"
+      ]
+    },
+
+
+    {
+      "name": "饭团点击",
+      "hosts": [
+        "dadagui",
+        "freeok",
+        "dadagui"
+      ],
+      "script": [
+        "document.querySelector(\"#playleftiframe\").contentWindow.document.querySelector(\"#start\").click();"
+      ]
+    },
+
+    {
+      "name": "毛驴点击",
+      "hosts": [
+        "www.maolvys.com"
+      ],
+      "script": [
+        "document.getElementsByClassName('swal-buttonswal-button--confirm')[0].click()"
+      ]
+    }
+  ],
+
+
+  "doh": [
+    {
+      "ips": [
+        "8.8.4.4",
+        "8.8.8.8"
+      ],
+      "name": "Google",
+      "url": "https://dns.google/dns-query"
+    },
+
+    {
+      "ips": [
+        "1.1.1.1",
+        "1.0.0.1",
+        "2606:4700:4700::1111",
+        "2606:4700:4700::1001"
+      ],
+      "name": "Cloudflare",
+      "url": "https://cloudflare-dns.com/dns-query"
+    },
+
+    {
+      "ips": [
+        "94.140.14.140",
+        "94.140.14.141"
+      ],
+      "name": "AdGuard",
+      "url": "https://dns.adguard.com/dns-query"
+    },
+    {
+      "ips": [
+        "84.200.69.80",
+        "84.200.70.40"
+      ],
+      "name": "DNSWatch",
+      "url": "https://resolver2.dns.watch/dns-query"
+    },
+    {
+      "ips": [
+        "9.9.9.9",
+        "149.112.112.112"
+      ],
+      "name": "Quad9",
+      "url": "https://dns.quad9.net/dns-quer"
+    }
+  ],
+  "hosts": [
+    "cache.ott.*.itv.cmvideo.cn=base-v4-free-mghy.e.cdn.chinamobile.com",
+    "cache.ott.ystenlive.itv.cmvideo.cn=base-v4-free-mghy.e.cdn.chinamobile.com",
+    "cache.ott.bestlive.itv.cmvideo.cn=base-v4-free-mghy.e.cdn.chinamobile.com",
+    "cache.ott.wasulive.itv.cmvideo.cn=base-v4-free-mghy.e.cdn.chinamobile.com",
+    "cache.ott.fifalive.itv.cmvideo.cn=base-v4-free-mghy.e.cdn.chinamobile.com",
+    "cache.ott.hnbblive.itv.cmvideo.cn=base-v4-free-mghy.e.cdn.chinamobile.com"
+  ],
+
+
    "flags":[
-      "imgo",
       "youku",
+      "优酷",
+      "优 酷",
+      "优酷视频",
       "qq",
       "qq 预告及花絮",
+      "腾讯",
+      "腾 讯",
+      "腾讯视频",
       "iqiyi",
       "qiyi",
-      "fun",
+      "奇艺",
+      "爱奇艺",
+      "爱 奇 艺",
+      "m1905",
+      "1905",
+      "xigua",
       "letv",
       "leshi",
+      "乐视",
+      "乐 视",
       "sohu",
+      "搜狐",
+      "搜 狐",
+      "搜狐视频",
       "tudou",
-      "xigua",
-      "cntv",
-      "1905",
       "pptv",
       "mgtv",
+      "芒果",
+      "imgo",
+      "芒果TV",
+      "芒 果 T V",
+      "fun",
+      "cntv",
       "wasu",
       "bilibili",
+      "哔 哩",
+      "哔 哩 哔 哩",
       "renrenmi"
    ],
+
+
+
    "ijk":[
       {
          "group":"软解码",
@@ -1896,9 +2570,20 @@
                "category":4,
                "name":"mediacodec-hevc",
                "value":"0"
+            },
+            {
+               "category": 1,
+               "name": "dns_cache_timeout",
+               "value": "600000000"
+            },
+            {
+               "category": 4,
+               "name": "max-buffer-size",
+               "value": "15728640"
             }
          ]
       },
+
       {
          "group":"硬解码",
          "options":[
@@ -1976,10 +2661,18 @@
                "category":4,
                "name":"mediacodec-hevc",
                "value":"1"
+            },
+            {
+               "category": 1,
+               "name": "dns_cache_timeout",
+               "value": "600000000"
             }
          ]
       }
    ],
+
+
+
    "ads":[
       "mimg.0c1q0l.cn",
       "www.googletagmanager.com",
@@ -2037,6 +2730,7 @@
       "vivovip.mmszxc.top",
       "qiu.xixiqiu.com",
       "cdnjs.hnfenxun.com",
+      "static-mozai.4gtv.tv",
       "cms.qdwght.com"
    ]
 }
